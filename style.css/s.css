@@ -1,0 +1,308 @@
+body {
+    height: 5000px;
+}
+
+
+/*global funcation*/
+
+.countaner {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* end global funcation */
+
+
+/*-------------------------navbar---------------------------------*/
+
+.navbar {
+    height: 0;
+    color: #fff;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.atrib {
+    width: 60%;
+    float: left;
+}
+
+.logo {
+    width: 40%;
+    float: left;
+}
+
+.navbar .logo {
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.navbar .logo h2 {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.atrib {
+    padding-top: 7px;
+}
+
+ul li {
+    padding: 10px;
+    margin-top: 30px;
+    display: inline;
+    text-transform: uppercase;
+}
+
+.atrib .active {
+    color: green;
+    border-bottom: solid green 2px;
+}
+
+.atrib ul li:hover {
+    color: green;
+    border-bottom: solid green 2px;
+}
+
+.atrib .wel {
+    color: #fff;
+    text-align: start;
+    margin-top: 300px;
+    text-transform: uppercase;
+}
+
+.atrib .wel h1 span {
+    color: green;
+}
+
+.atrib .btn button {
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.atrib .btn button:hover {
+    color: brown;
+}
+
+
+/*-------------------------end navbar---------------------------------*/
+
+.heads {
+    background: url("../image/wp3913837.png");
+    height: 900px;
+}
+
+
+/*--------------------------end heder to photo*/
+
+.server h2 {
+    font-weight: normal;
+    margin: 0 0 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.server {
+    overflow: hidden;
+    height: 300px;
+    padding: 80px 20px;
+}
+
+.server .items {
+    width: 33.33333%;
+    float: left;
+}
+
+.server .items .text i {
+    color: green;
+    float: left;
+    padding: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*------------------------end server--------------------------------------*/
+
+.team {
+    padding-top: 100px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.team .t1 {
+    width: 30%;
+    float: left;
+}
+
+.team .t1 h2 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.team .t1 p {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(19, 17, 17);
+}
+
+.team .t2 {
+    width: 70%;
+    float: left;
+}
+
+.team .t2 .box {
+    float: left;
+}
+
+.team .t2 img {
+    width: 128px;
+    height: 128px;
+}
+
+.overlaed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    line-height: 100%;
+    background-color: aquamarine;
+    display: none;
+}
+
+
+/*---------------------------end team-----------------------------------------*/
+
+.temo {
+    background-image: url("../image/main.avif");
+    height: 500px;
+    background-size: auto;
+    text-align: center;
+}
+
+.wq h1 {
+    padding: 100px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.wq q {
+    padding-bottom: 100px;
+    line-height: 1.7;
+    color: #fff;
+    font-weight: bold;
+}
+
+.wq button {
+    color: #fff;
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+
+.wq button:hover {
+    color: red;
+}
+
+
+/*-----------------------------------end temo-------------------------------------------------*/
+
+.foter {
+    overflow: hidden;
+    background-color: beige;
+}
+
+.foter .m1 h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.foter .m1 ul li {
+    text-align: start;
+    color: green;
+    border: solid 2px green;
+}
+
+.foter .m1 ul li:hover {
+    background-color: rgb(130, 242, 130);
+}
+
+.foter .m2 i {
+    padding: 0;
+    color: #060606;
+    float: left;
+    margin-top: 70px;
+    width: 33.3333333333%;
+    text-align: center;
+}
+
+.foter .m2 i:hover {
+    background-color: rgb(130, 242, 130);
+}
+
+
+/*------------------------end foter---------------------------------------------*/
+
+.fot {
+    height: 500px;
+    background-color: #232323;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.fot .col {
+    width: 25%;
+    float: left;
+}
+
+.fot .col ul li {
+    display: list-item;
+}
+
+.fot .col h2 {
+    color: #FFF;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.fot .col p {
+    margin-bottom: 20px;
+    line-height: 1.6
+}
+
+.fot .col i {
+    display: inline-block;
+    color: #FFF;
+    border: 1px solid #ebebe3;
+    width: 40px;
+    padding: 10px;
+}
+
+.fot .tags span {
+    display: inline-block;
+    color: #FFF;
+    border: 1px solid #e1e1d9;
+    width: 40px;
+    padding: 10px;
+}
+
+.react div img {
+    float: left;
+    margin-right: 10px;
+}
